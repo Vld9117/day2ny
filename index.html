@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<!-- --scroll-fixed-width: 1320px; --layout-width: 900px; -->
+
+<head>
+    <meta charset="utf-8" />
+    <title>Посчитать дни до Нового Года!</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <meta name="keywords" content="Дни до Нового года, Сколько дней до Нового Года, как скоро Новый Год, когда Новый год">
+    <meta name="description" content="Нужно посчитать сколько дней до Нового года?
+    Решаемо с сайтом вычисления дней до Нового года!" />
+    <script src="js/counter.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" id="theme" type="text/css" href="./css/light-mode.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
+</head>
+
+<body onmousemove="mouseCoords(event)">
+    <!-- Шапка сайта -->
+    <header>
+        <a id="headerBox1" href="./index.html"> Посчитай дни до Нового Года!</a>
+        <div id="headerBox2">
+            <a href="https://vk.com/jiaco_deda">Начало</a>
+            <a href="https://vk.com/sonofseaside">Go</a>
+            <a onclick="p()">Contact us</a>
+            <button id="switchMode">Перейти в тёмную тему</button>
+        </div>
+        <script src="js\themeSwitch.js"></script>
+    </header>
+    <!-- Основной контент  -->
+    <main>
+        <!-- форма для вычисления  -->
+        <article class="countStyle">
+            <form class="forma">
+                <input id="setYear" type="number" ; placeholder="Введите год" step="1" min="0" required autofocusinputmode="numeric" />
+            </form>
+            <form class="forma">
+                <input id="setMounth" type="number" placeholder="Введите месяц" inputmode="numeric" />
+            </form>
+            <form class="forma">
+                <input id="setDay" type="number" placeholder="Введите день" inputmode="numeric" />
+            </form>
+            <button id="Start" onclick="countDaysToNewYear()">Рассчитать!</button>
+            <!-- Показывает результат вычислений -->
+            <div id="answerBox">
+                <h3 style="display: flex; flex-grow: 4;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Результат:</h3>
+                <h3 id="answer"></h3>
+            </div>
+
+        </article>
+
+        <!-- Просто баловство с js -->
+        <article id="coordsBox">
+            <h3 style="padding-left: 10px; font-family: 'Noto Serif', serif;">Координаты мыши на странице</h3>
+            <div id="coords" style="text-align: left; padding-left: 20px; font-family: 'Noto Serif', serif;">&nbsp;</div>
+        </article>
+
+        <article>
+            <img src=".\img\HTML5-semantin-infografic.png" alt="структура семантики html5" style="width: 374px; display: flex; " />
+            <iframe src="https://discord.com/widget?id=769530744581914644&theme=dark" width="350" height="310" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </article>
+
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer>
+        <h3>Здесь могла быть ваша реклама :(</h3>
+    </footer>
+
+</body>
+
+</html>

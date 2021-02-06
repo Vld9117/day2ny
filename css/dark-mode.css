@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Press+Start+2P&display=swap');
+body {
+    background-color: #25262a;
+}
+
+header {
+    background-color: #94a1b2;
+}
+
+a,
+h2,
+h3,
+#coords {
+    color: blueviolet;
+}
+
+#switchMode {
+    background-color: black;
+    color: white;
+}
+
+#Start {
+    background-color: black;
+    color: white;
+}
+
+
+/* .countStyle {
+    background-color: #e7b6ac;
+} */
+
+footer {
+    background-color: #25262a;
+}

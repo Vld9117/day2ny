@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Press+Start+2P&display=swap');
+body {
+    background-color: #d19e95;
+}
+
+
+/*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200; симпатичный шрифт*/
+
+header {
+    background-color: #b86a5b;
+}
+
+.switchMode {
+    background-color: blanchedalmond;
+}
+
+
+/* .countStyle {
+    background-color: #e7b6ac;
+} */
+
+footer {
+    background-color: #b86a5b;
+}
+
+#Start {
+    border-color: crimson;
+    background-color: #5ba9b800;
+    color: black;
+}
