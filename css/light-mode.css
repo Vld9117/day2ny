@@ -1,39 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Press+Start+2P&display=swap");
 body {
-    background-color: #FFC473;
+  background-color: #ffc473;
 }
-
 
 /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 200; симпатичный шрифт*/
 
 header {
-    background-color: #FF9400;
+  background-color: #ff9400;
 }
 a,
 h2,
 h3,
 #coords {
-    color: #A63100;
+  color: #a63100;
 }
 
 #switchMode {
-    background-color: #FFAE40;
-    color: #A63100;
+  background-color: #ffae40;
+  color: #a63100;
 }
-
 
 /* .countStyle {
     background-color: #e7b6ac;
 } */
 
 footer {
-    background-color: #FFD040;
+  background-color: #ffd040;
 }
 
 #Start {
-    border-color: crimson;
-    background-color: #FFAE40;
-    color: #A63100;
+  border-color: crimson;
+  background-color: #ffae40;
+  color: #a63100;
 }
