@@ -9,7 +9,7 @@ body {
     height: auto;
     flex-direction: column;
 }
-
+/* Параметры картинок, в дальнейшем надо определять за каждым отдельным изображением */
 img {
     max-width: 500px;
     width: 100%;
