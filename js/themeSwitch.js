@@ -2,6 +2,8 @@ let switchMode = document.getElementById("switchMode");
 
 switchMode.onclick = function() {
     let theme = document.getElementById("theme");
+    // localStorage.setItem('theme', theme.href); //теперь у вас в localStorage хранится ключ "myKey" cо значением "myValue"
+
 
     if (theme.getAttribute("href") == "./css/light-mode.css") {
         theme.href = "./css/dark-mode.css";
