@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Press+Start+2P&display=swap');
 body {
-    background-color: #d19e95;
+    background-color: #FFC473;
 }
 
 
@@ -9,7 +9,7 @@ body {
     font-weight: 200; симпатичный шрифт*/
 
 header {
-    background-color: #b86a5b;
+    background-color: #FF9400;
 }
 a,
 h2,
@@ -29,7 +29,7 @@ h3,
 } */
 
 footer {
-    background-color: #FFC000;
+    background-color: #FFD040;
 }
 
 #Start {
