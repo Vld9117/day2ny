@@ -11,9 +11,16 @@ body {
 header {
     background-color: #b86a5b;
 }
+a,
+h2,
+h3,
+#coords {
+    color: #A63100;
+}
 
-.switchMode {
-    background-color: blanchedalmond;
+#switchMode {
+    background-color: #FFAE40;
+    color: #A63100;
 }
 
 
@@ -22,11 +29,11 @@ header {
 } */
 
 footer {
-    background-color: #b86a5b;
+    background-color: #FFC000;
 }
 
 #Start {
     border-color: crimson;
-    background-color: #5ba9b800;
-    color: black;
+    background-color: #FFAE40;
+    color: #A63100;
 }

@@ -10,6 +10,11 @@ body {
     flex-direction: column;
 }
 
+img {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+}
 
 /* Устройства с экраном больше, чем у Айфона 5/SE */
 
@@ -112,6 +117,7 @@ body {
         font-family: 'Noto Serif', serif;
         display: flex;
         letter-spacing: 0.1em;
+        padding-left: 5px;
     }
 }
 
@@ -146,6 +152,7 @@ font-weight: 200; симпатичный шрифт
     a:hover {
         background-color: rgba(255, 255, 255, 0.562);
     }
+
     #switchMode {
         /* margin: auto 0; */
         border-radius: 10px;
@@ -173,9 +180,11 @@ font-weight: 200; симпатичный шрифт
         margin: 10px 10px 10px 10px;
         border-radius: 30px;
     }
-    /* .countStyle {
-    background-color: #e7b6ac;
-} */
+
+    .countStyle {
+    padding-top: 8px;
+    }
+
     footer {
         font-family: 'Noto Serif', serif;
     }
@@ -193,6 +202,7 @@ font-weight: 200; симпатичный шрифт
         cursor: pointer;
         justify-items: flex-start;
     }
+    
 }
 
 
