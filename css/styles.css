@@ -6,7 +6,7 @@
 
 body {
     margin: 0;
-    height: 100vh;
+    height: auto;
     flex-direction: column;
 }
 
@@ -57,7 +57,7 @@ body {
         transform: translateY(3px);
     }
     main {
-        margin: 10px 0px;
+        margin: 10px 0px 0px 0px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -111,6 +111,7 @@ body {
     footer {
         font-family: 'Noto Serif', serif;
         display: flex;
+        letter-spacing: 0.1em;
     }
 }
 

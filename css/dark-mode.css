@@ -1,35 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Press+Start+2P&display=swap');
 body {
-    background-color: #25262a;
+    background-color: #530FAD;
 }
 
 header {
-    background-color: #94a1b2;
+    background-color: #9D3ED5;
 }
 
 a,
 h2,
 h3,
 #coords {
-    color: blueviolet;
+    color: white;
 }
 
 #switchMode {
-    background-color: black;
+    background-color: #402C84;
     color: white;
 }
 
 #Start {
-    background-color: black;
+    background-color: #402C84;
     color: white;
 }
 
 
-/* .countStyle {
-    background-color: #e7b6ac;
-} */
+.countStyle {
+    background-color: #866FD7;
+}
 
 footer {
-    background-color: #25262a;
+    background-color: #9D3ED5;
 }
