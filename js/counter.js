@@ -77,3 +77,25 @@ function mouseCoords(e) {
   }
   document.getElementById("coords").innerHTML = "X : " + x + ", Y : " + y;
 }
+// function filler(){
+// let yearToday = document.querySelector('yearToday');
+// let mounth = document.querySelector('mounth');
+// let nowDay = document.querySelector('nowDay');
+
+// если localStorage не пустой
+// получаем из него необходимые данные
+// и присваиваем их инпутам
+//  if (localStorage.length != 0) {
+//     yearToday.value = localStorage.yearToday;
+//     mounth.value = localStorage.mounth;
+//     nowDay.value = localStorage.nowDay;
+// }
+
+// // вешаем на форму обработчик события "submit"
+// form.addEventListener('Submit', () => {
+//     // записываем введенные пользователем данные в localStorage
+//     localStorage.yearToday = yearToday.value;
+//     localStorage.mounth = mounth.value;
+//     localStorage.nowDay = nowDay.value;
+// }
+// }
