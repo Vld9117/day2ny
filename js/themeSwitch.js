@@ -4,6 +4,9 @@ let theme = document.getElementById("theme");
 //иначе определяем стандартное значение
 if (localStorage.theme) {
   theme.href = localStorage.theme;
+  if (localStorage.getItem("theme") === "./css/dark-mode.css") {
+    document.getElementById("switchMode").innerHTML = "Перейти в светлую тему";
+  }
 } else {
   theme.href = "./css/light-mode.css";
   document.getElementById("switchMode").innerHTML = "Перейти в тёмную тему";
