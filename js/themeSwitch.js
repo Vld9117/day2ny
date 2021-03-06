@@ -1,5 +1,5 @@
 let switchMode = document.getElementById("switchMode");
-
+let theme = document.getElementById("theme");
 //если в локалСторадж есть ключ, то мы присваиваем его теме,
 //иначе определяем стандартное значение
 if (localStorage.theme) {
@@ -9,8 +9,6 @@ if (localStorage.theme) {
 }
 
 switchMode.onclick = function () {
-  let theme = document.getElementById("theme");
-
   if (localStorage.getItem("theme") === "./css/light-mode.css") {
     theme.href = "./css/dark-mode.css";
     document.getElementById("switchMode").innerHTML = "Перейти в светлую тему";
