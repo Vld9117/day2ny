@@ -6,6 +6,7 @@ if (localStorage.theme) {
   theme.href = localStorage.theme;
 } else {
   theme.href = "./css/light-mode.css";
+  document.getElementById("switchMode").innerHTML = "Перейти в тёмную тему";
 }
 
 switchMode.onclick = function () {
