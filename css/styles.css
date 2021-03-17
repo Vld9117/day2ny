@@ -58,6 +58,7 @@ body {
     box-shadow: 0 3px #666;
     transform: translateY(3px);
   }
+  /* основное тело сайта */
   main {
     margin: 10px 0px 200px 0px;
     display: flex;
@@ -76,8 +77,19 @@ body {
     text-align: left;
     width: min-content;
   }
-  .forma {
+  #forma {
     margin: 5px;
+    padding-top: 5px;
+  }
+  input[type="number"] {
+    padding-top: 5px;
+    margin-top: 5px;
+    width: 150px;
+  }
+  input[type="reset"] {
+    padding-top: 5px;
+    margin-top: 5px;
+    width: max-content;
   }
   /*Значения кнопки рассчёта дней до Нового Года */
   #Start {

@@ -42,7 +42,6 @@ function countDaysToNewYear() {
         break;
       case 2:
         c++;
-        console.log("февр");
         break;
     }
   }
