@@ -15,7 +15,7 @@ body {
 
 /* Устройства с экраном больше, чем у Айфона 5/SE */
 
-@media (min-width: 360px) {
+@media (min-width: 767px) {
   /* шапка */
   header {
     font-family: "Press Start 2P", cursive;
@@ -72,6 +72,7 @@ body {
     flex-direction: column;
     align-self: flex-start;
     padding: 20px;
+    height: 322.72px;
     justify-content: left;
     border-radius: 20px;
     text-align: left;
@@ -110,6 +111,8 @@ body {
   }
   #answerBox {
     display: flex;
+    flex-direction: column;
+    width: 213.72px;
     align-self: flex-start;
     align-content: center;
     padding-left: 8px;
@@ -146,7 +149,7 @@ font-weight: 200; симпатичный шрифт
 
 Устройства с экраном меньше или равно как у Айфона 5/SE */
 
-@media (max-width: 360px) {
+@media (max-width: 767px) {
   /* шапка */
   header {
     font-family: "Press Start 2P", cursive;
@@ -178,9 +181,9 @@ font-weight: 200; симпатичный шрифт
     border-color: crimson;
     border-style: outset;
     align-self: flex-start;
-    -webkit-transition-duration: 0.4s;
+    -webkit-transition-duration: 0.5s;
     /* Safari */
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
   }
   /* #switchMode:hover {
       background-color: #4CAF50;
@@ -189,7 +192,7 @@ font-weight: 200; симпатичный шрифт
   #switchMode:active {
     background-color: #1db954;
     box-shadow: 0 2px #666;
-    transform: translateY(2px);
+    transform: translateY(2.5px);
   }
   #Start {
     cursor: pointer;

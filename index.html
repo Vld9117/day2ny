@@ -45,7 +45,38 @@
     </header>
     <!-- Основной контент  -->
     <main>
-      <!-- форма для вычисления  -->
+      <!-- блок автоматических вычисления  -->
+      <article class="countStyle">
+        <!-- Показывает результат вычислений -->
+        <div id="answerBox">
+          <h2>Реальное время:</h2>
+          <div
+            id="current_date_time_block2"
+          >
+            &nbsp;
+          </div>
+          <h3
+            style="
+              display: column;
+              flex-grow: 4;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            "
+          >
+            Результат:
+          </h3>
+          <div
+            id="daysFromToday"
+            style="
+              font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+                'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+              font-weight: 100; display: block;
+            "
+          >
+            &nbsp;
+          </div>
+        </div>
+      </article>
+      <!-- форма для вычисления времени в данный момент  -->
       <article class="countStyle">
         <form id="forma">
           <input
@@ -102,7 +133,6 @@
           <h3 id="answer"></h3>
         </div>
       </article>
-
       <!-- Просто баловство с js -->
       <article id="coordsBox">
         <h3 style="padding-left: 10px; font-family: 'Noto Serif', serif">

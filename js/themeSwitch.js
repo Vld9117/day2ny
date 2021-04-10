@@ -9,7 +9,7 @@ if (localStorage.theme) {
   }
 } else {
   theme.href = "./css/light-mode.css";
-  document.getElementById("switchMode").innerHTML = "Перейти в тёмную тему";
+  document.getElementById("switchMode").innerHTML = "Перейти  в тёмную  тему";
 }
 
 switchMode.onclick = function () {
@@ -19,7 +19,7 @@ switchMode.onclick = function () {
     localStorage.theme = "./css/dark-mode.css";
   } else {
     theme.href = "./css/light-mode.css";
-    document.getElementById("switchMode").innerHTML = "Перейти в тёмную тему";
+    document.getElementById("switchMode").innerHTML = "Перейти в  тёмную  тему";
     localStorage.theme = "./css/light-mode.css";
   }
 };
