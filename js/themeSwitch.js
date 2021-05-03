@@ -5,21 +5,22 @@ let theme = document.getElementById("theme");
 if (localStorage.theme) {
   theme.href = localStorage.theme;
   if (localStorage.getItem("theme") === "./css/dark-mode.css") {
-    document.getElementById("switchMode").innerHTML = "Перейти в светлую тему";
+    document.getElementById("switchMode").innerHTML = "Светлая тема";
   }
 } else {
   theme.href = "./css/light-mode.css";
-  document.getElementById("switchMode").innerHTML = "Перейти  в тёмную  тему";
+  document.getElementById("switchMode").innerHTML = "Тёмная тема";
 }
 
 switchMode.onclick = function () {
   if (localStorage.getItem("theme") === "./css/light-mode.css") {
     theme.href = "./css/dark-mode.css";
-    document.getElementById("switchMode").innerHTML = "Перейти в светлую тему";
+    document.getElementById("switchMode").innerHTML = "Светлая тема";
     localStorage.theme = "./css/dark-mode.css";
   } else {
     theme.href = "./css/light-mode.css";
-    document.getElementById("switchMode").innerHTML = "Перейти в  тёмную  тему";
+    document.getElementById("switchMode").innerHTML = "Тёмная тема";
     localStorage.theme = "./css/light-mode.css";
   }
 };
+
