@@ -49,9 +49,20 @@
       <article class="countStyle">
         <!-- Показывает результат вычислений -->
         <div id="answerBox">
-          <h2 style="font-size: 20pt; font-family:'Times New Roman', Times, serif;">Сегодня:</h2>
+          <h2
+            style="
+              font-size: 20pt;
+              font-family: 'Times New Roman', Times, serif;
+            "
+          >
+            Сегодня:
+          </h2>
           <div
-            id="current_date_time_block2" style="font-size: 20pt ;font-family:'Times New Roman', Times, serif;"
+            id="current_date_time_block2"
+            style="
+              font-size: 20pt;
+              font-family: 'Times New Roman', Times, serif;
+            "
           >
             &nbsp;
           </div>
@@ -59,7 +70,7 @@
             style="
               display: column;
               font-size: 20pt;
-              font-family:'Times New Roman', Times, serif;
+              font-family: 'Times New Roman', Times, serif;
             "
           >
             До Нового Года:
@@ -67,8 +78,9 @@
           <div
             id="daysFromToday"
             style="
-              font-family:'Times New Roman', Times, serif;
-              font-size: 20pt; display: block;
+              font-family: 'Times New Roman', Times, serif;
+              font-size: 20pt;
+              display: block;
             "
           >
             &nbsp;
@@ -115,20 +127,29 @@
             autocomplete="on"
             maxlength="2"
           />
-          <input id="Start" onclick="clr()" name="reset" type="reset" value="Очистить" />
-          <button id="Start" onclick="countDaysToNewYear()">Рассчитать</button>
-          <!-- Показывает результат вычислений -->
-          <div id="answerBox">
-            <h3
-              style="
-                font-size: 18pt;
-              "
-            >
-              Результат:
-            </h3>
-            <h3 id="answer"></h3>
+          <input
+            id="Start"
+            onclick="clr()"
+            name="reset"
+            type="reset"
+            value="Очистить"
+          />
         </form>
-        
+
+        <!-- Показывает результат вычислений -->
+        <div id="answerBox">
+          <button id="Start" onclick="countDaysToNewYear()">Рассчитать</button>
+          <h3
+            style="
+              font-size: 18pt;
+              display: flex;
+              text-align: center;
+              justify-content: center;
+            "
+          >
+            Результат:
+          </h3>
+          <h3 id="answer"></h3>
         </div>
       </article>
       <article>
@@ -140,7 +161,7 @@
 
     <!-- Подвал сайта -->
     <footer>
-      <h3 class="footerText">Здесь могла быть ваша реклама :(</h3>
+      <a href="about.html" class="footerText">О проекте</a>
     </footer>
   </body>
 </html>

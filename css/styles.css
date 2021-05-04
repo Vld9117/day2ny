@@ -51,6 +51,7 @@ body {
     border-color: crimson;
     border-style: outset;
     transition-duration: 0.4s;
+    height: 30px;
     font-size: 12px;
     font-family: "Press Start 2P";
   }
@@ -65,7 +66,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex: 1;
+    flex: 2;
   }
   /* Поле ввода значений */
   .countStyle {
@@ -79,7 +80,7 @@ body {
     border-radius: 20px;
     text-align: center;
     width: min-content;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
   }
   #forma {
     margin: 10px;
@@ -94,7 +95,7 @@ body {
     padding: 5px;
     margin: 5px;
     width: 230px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
   }
   /*Значения кнопки рассчёта дней до Нового Года */
   #Start {
@@ -109,11 +110,12 @@ body {
     transition-duration: 0.4s;
     text-align: center;
     width: 200px;
-    margin: 5px 10px;
+    margin: 0px 10px;
+    justify-self: center;
     text-align: justify;
     align-content: center;
     justify-content: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
   }
 
   #Start:active {
@@ -123,28 +125,19 @@ body {
   }
   #answerBox {
     display: flex;
+    justify-self: center;
     flex-direction: column;
-    width: 213.72px;
+    width: 230px;
+    margin: 0px 10px;
     align-self: flex-start;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
   }
   #answer {
     display: flex;
     justify-content: center;
     flex: auto;
-    padding: 0px 20%;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  footer {
-    font-family: "Noto Serif", serif;
-    display: flex;
-    margin-top: 200px;
-  }
-  .footerText {
-    margin-left: 60px;
-    font-size: 18pt;
-    font-family: "Press Start 2P";
+    font-family: "Times New Roman", Times, serif;
   }
   #ann {
     cursor: pointer;
@@ -153,6 +146,64 @@ body {
     height: 754px;
     border: 3px;
     border-color: crimson;
+  }
+  footer {
+    font-family: "Noto Serif", serif;
+    display: flex;
+    height: 70px;
+    padding: 20px;
+    margin-top: 200px;
+  }
+  .footerText {
+    margin-left: 60px;
+    font-size: 18pt;
+    letter-spacing: 1.5px;
+    font-family: "Press Start 2P";
+  }
+
+  .about_text {
+    display: flexbox;
+    flex-flow: column;
+    flex-wrap: wrap;
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 1.5px;
+
+    justify-content: center;
+    margin: 50px 60px 20px 60px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  #textTo {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+    margin: 0px 200px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding: 30px;
+    margin-bottom: 82px;
+  }
+  #artTo {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+    font-family: "Times New Roman", Times, serif;
+    justify-content: center;
+    margin: 0px 200px;
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .footer_about {
+    margin-top: 4%;
   }
 }
 
@@ -167,7 +218,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
-    
     padding: 8px;
   }
   #box-2 {
@@ -175,7 +225,6 @@ body {
     justify-content: left;
     flex-wrap: wrap;
     display: flex;
-
   }
   a {
     text-decoration: none;
@@ -199,6 +248,7 @@ body {
     /* margin: auto 0; */
     border-radius: 25px;
     border-width: 3px;
+    font-family: 'Press Start 2P';
     width: 104px;
     height: 35px;
     border-color: crimson;
@@ -210,13 +260,11 @@ body {
   }
   .countStyle {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    
+    font-family: "Times New Roman", Times, serif;
   }
   #forma {
     margin: 10px;
     justify-content: center;
-    
   }
   input[type="number"] {
     margin-top: 10px;
@@ -228,7 +276,7 @@ body {
   input[type="reset"] {
     padding: 5px;
     font-size: 24pt;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
   }
   #switchMode:active {
     background-color: #1db954;
@@ -242,17 +290,16 @@ body {
     margin: 4px 10px 2px 10px;
     border-radius: 30px;
     font-size: 18pt;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
   }
   #answerbox {
-    font-family: 'Times New Roman', Times, serif;
-
+    font-family: "Times New Roman", Times, serif;
   }
   #answer {
     display: flex;
     justify-content: center;
     font-size: 18pt;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
   }
   #ann {
     cursor: pointer;
@@ -263,10 +310,86 @@ body {
     border-color: crimson;
     margin-bottom: 50px;
   }
+  .about_text {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  #textTo {
+    margin-bottom: 15px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16pt;
+    line-height: 18pt;
+    text-align: center;
+    letter-spacing: 1.6px;
+  }
+  #artTo {
+    display: flex;
+    font-family: "Times New Roman", Times, serif;
+    justify-content: center;
+    text-align: center;
+    font-size: 18pt;
+    line-height: 18pt;
+    letter-spacing: 1.3px;
+  }
   footer {
     justify-content: center;
     padding: 8px 10px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 13pt;
+    margin-top: 12%;
   }
 }
+/* работа над оверлеем */
+
+/* html составляющая
+<a class="back" href="https://html-plus.in.ua/methods-create-overlay-layer">← Посмотреть статью</a>
+<div class="overlay-trigger">
+<button>Overlay #05</button>
+<button class="overlay-close">Close Overlay</button>
+<div class="overlay overlay05"></div>
+</div>
+
+css составляющая */
+.overlay05 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s linear;
+  transform: translateX(-100%);
+}
+.overlay05.is-open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}
+
+/* js составляющая оверлея
+$(function() {
+  var $overlay = $('.overlay'),
+      $overlayTrigger = $('.overlay-trigger button'),
+      $overlayClose = $('.overlay-close'),
+      openClass = 'is-open';
+
+  $overlayTrigger.on('click', function() {
+    var num = ('0' + ($(this).index() + 1)).slice(-2);
+    $('.overlay' + num).addClass(openClass);
+    $overlayClose.addClass(openClass);
+  });
+
+  $overlayClose.on('click', function() {
+    $overlayClose.removeClass(openClass);
+    $overlay.removeClass(openClass);
+  });
+}); */
